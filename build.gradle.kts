@@ -22,7 +22,7 @@ dependencies {
     implementation("com.github.Minestom:Minestom:-SNAPSHOT")
 
     // Enable logging in Minestom
-    implementation("org.slf4j:slf4j-simple:2.0.13")
+    implementation("ch.qos.logback:logback-classic:1.5.6")
 
     // Find some more Minestom libraries here:
     // https://minestom.net/libraries

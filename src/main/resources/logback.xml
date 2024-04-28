@@ -1,0 +1,11 @@
+<configuration>
+    <conversionRule conversionWord="highlight" converterClass="org.example.server.LogbackHighlighter"/>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{h:mm:ss a} %highlight([%level]:) %highlight(%msg%n)</pattern>
+        </encoder>
+    </appender>
+    <root level="info">
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>
